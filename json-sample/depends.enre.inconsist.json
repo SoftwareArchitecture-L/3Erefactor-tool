@@ -1,0 +1,112 @@
+{
+  "@schemaVersion": "1.0",
+  "name": "refactor",
+  "module": [
+    {
+      "src": "depends/format/detail",
+      "dest": "depends/extractor/this"
+    },
+    {
+      "src": "depends/entity/this",
+      "dest": "depends/relations"
+    },
+    {
+      "src": "depends/relations",
+      "dest": "depends/extractor/this"
+    },
+    {
+      "src": "depends/extractor/python/union",
+      "dest": "depends/extractor/ruby/this"
+    }
+  ],
+  "file": [
+    {
+      "src": "src/main/java/depends/entity/DecoratedEntity.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/MultiDeclareEntities.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/ContainerEntity.java",
+      "dest": "src/main/java/depends/relations/Relation.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/FunctionEntityImpl.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/relations/RelationCounter.java",
+      "dest": "src/main/java/depends/extractor/AbstractLangProcessor.java"
+    },
+    {
+      "src": "src/main/java/depends/relations/Inferer.java",
+      "dest": "src/main/java/depends/extractor/UnsolvedBindings.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/FileEntity.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/CandidateTypes.java",
+      "dest": "src/main/java/depends/relations/Relation.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/Entity.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/FunctionEntity.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/extractor/python/union/PythonProcessor.java",
+      "dest": "src/main/java/depends/extractor/ruby/IncludedFileLocator.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/CandidateTypes.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/format/detail/UnsolvedSymbolDumper.java",
+      "dest": "src/main/java/depends/extractor/UnsolvedBindings.java"
+    },
+    {
+      "src": "src/main/java/depends/extractor/python/union/PythonFileParser.java",
+      "dest": "src/main/java/depends/extractor/ruby/IncludedFileLocator.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/Expression.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/extractor/python/union/PythonCodeListener.java",
+      "dest": "src/main/java/depends/extractor/ruby/IncludedFileLocator.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/Entity.java",
+      "dest": "src/main/java/depends/relations/Relation.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/ContainerEntity.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/VarEntity.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/TypeEntity.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/entity/AliasEntity.java",
+      "dest": "src/main/java/depends/relations/Inferer.java"
+    },
+    {
+      "src": "src/main/java/depends/relations/Inferer.java",
+      "dest": "src/main/java/depends/extractor/AbstractLangProcessor.java"
+    }
+  ]
+}
