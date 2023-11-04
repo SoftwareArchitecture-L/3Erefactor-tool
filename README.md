@@ -21,9 +21,11 @@
 
          <img src="fig/dependency.png" alt="dependency" style="zoom:60%;" />
 
-      3. 构建的依赖模型将以两种json的形式保存在项目根目录root/.enre/projectName.enre.json和projectName.enre.dep.json文件中。构建依赖模型的同时会构建反射模型，并以json的形式保存在项目根目录root/.enre/projectName.rfx.json文件中。样例可以在git仓库/json-sample/depends.enre.json，depends.enre.dep.json和depends.rfx.json文件查看。
-      4. 点击左侧的“Show Target Model”按钮，可以触发后端对目标模型解析过程，并对目标模型进行可视化展示，可视化效果同上。
-      5. 该步骤会将该步骤导入的目标模型json文件会移动到root/.enre/文件下，并重命名为projectName.con.json。样例可以在git仓库/json-sample/depends.enre.con.json文件查看
+         在构建依赖模型时，将在本地项目的根目录 root/.enre/ 中生成两种 json 文件，分别命名为 projectName.enre.json 和 projectName.enre.dep.json。同时，也会生成反射模型，并将其以 json 格式保存为 projectName.rfx.json 文件，同样存放在 root/.enre/ 目录下。在本仓库的 /json-sample/ 目录中可以找到示例文件，包括 depends.enre.json、depends.enre.dep.json 和 depends.rfx.json。
+
+      3. 点击左侧的“Show Target Model”按钮，可以触发后端对目标模型解析过程，并对目标模型进行可视化展示，可视化效果同上。
+
+         该步骤会将第一步输入的目标模型json文件移动到root/.enre/目录下，并重命名为projectName.con.json。示例文件可参见本仓库的/json-sample/depends.enre.con.json。
 
    2. ##### 架构一致性检测：自动检测代码实现和目标架构设计之间的架构不一致。
 
@@ -31,7 +33,7 @@
 
       <img src="fig/inconsistency.png" alt="inconsistency" style="zoom:50%;" />
 
-      2. 生成的不一致依赖信息将以json形式保存在root/.enre/projectName.enre.inconsist.json文件。样例可以在git仓库/json-sample/depends.enre.inconsist.json文件查看。
+      生成的不一致依赖信息将以json形式保存在root/.enre/projectName.enre.inconsist.json文件。示例文件可参见本仓库的/json-sample/depends.enre.inconsist.json。
 
    3. ##### 自动重构推荐：自动搜索消除架构不一致的重构操作序列
 
@@ -39,7 +41,7 @@
 
       <img src="fig/Plugin.png" alt="Plugin" style="zoom:50%;" />
 
-      2.  搜索到的重构方案将以json形式保存在root/.enre/projectName.refactor.out.json文件。样例可以在git仓库/json-sample/depends.refactor.out.json文件查看
+      搜索到的重构方案将以json文件形式保存为root/.enre/projectName.refactor.out.json。示例文件可参见本仓库的/json-sample/depends.refactor.out.json。
 
    4. ##### 交互式代码重构：用户与重构操作之间的交互
 
