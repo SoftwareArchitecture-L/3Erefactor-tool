@@ -10,13 +10,13 @@
 ## 后端安装
 后端安装包为jar包形式，运行后端时请将所有jar包放在同一文件夹下。
 
-输入以下命令启动后端SpringBoot服务器运行，
+在jar包的放置路径下启动命令行cmd，输入以下命令调用对应版本的3ERefactor-service.jar包，启动后端SpringBoot服务器运行。
 ```bash
-java -jar 3Erefactor-service.jar
+java -jar 3ERefactor-service.jar
 ```
-后端服务需要占用8888端口。
+后端服务需要占用8888端口。只需启动3ERefactor-service.jar包，其他jar包放在同一文件夹下即可。
 
-出现如图所示即是启动成功。
+在命令行中出现如图所示即是启动成功。
 ![Alt text](fig/backend-running.png)
 
 ## 工具运行演示

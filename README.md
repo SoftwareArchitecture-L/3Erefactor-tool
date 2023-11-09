@@ -30,3 +30,4 @@
    3. ##### 安装包相关install-package文件夹
       - frontend放置各版本的前端安装包.vsix文件。
       - backend放置各版本的后端安装包.jar文件。
+      - 安装文件使用GIT LFS协议，拉取时请使用git pull指令，使用zip包获取可能导致安装文件损害。
