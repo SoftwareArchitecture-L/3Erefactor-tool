@@ -1,35 +1,33 @@
-## 3Erefactor: 面向架构一致性的智能重构方法与工具
+## 3Erefactor:  Effective, Efficient and Executable Refactoring Recommendation for Software Architectural Consistency
 
-为了应对随着软件的不断发展，业务功能变得越来越复杂，软件的实现不可避免的和预期的架构设计出现偏离，从而导致架构不一致的出现。架构不一致使软件维护变得困难，并且需要付出大量的努力来进行重构。为了应对这个问题，我们推出了工具3Erefactor，它是一个专门针对消除架构不一致的智能重构推荐工具。
+As software continues to evolve and business functions become increasingly complex, architectural inconsistency arises when the implementation architecture deviates from the expected architecture design. This architectural problem makes maintenance difficult and requires significant effort to refactor. To combat this problem, we have introduced the tool 3Erefactor, which is an intelligent refactoring recommendation tool specialized in removing architectural inconsistencies.
+
+ ### Tool Core Functions:
+
+   - Code Dependency Modeling and Visualization
+   - Architecture Inconsistency Detection and Visualization
+   - Automated Recommendations for Refactoring to Eliminate Architectural Inconsistencies
+   - Interactive Code Refactoring
 
 
+### Online Link to Tool Demo：
+   Demo in Chinese Version：https://www.bilibili.com/video/BV1UN4y1k7pE/?spm_id_from=333.999.0.0
 
- ### 工具核心功能:
-
-   - 代码依赖模型构建和可视化
-   - 架构不一致检测和可视化
-   - 消除架构不一致的自动重构推荐
-   - 交互式代码重构
-   
-  
-### 工具演示在线链接：
-   中文版演示视频：https://www.bilibili.com/video/BV1UN4y1k7pE/?spm_id_from=333.999.0.0
-   
    Demo in English Version: https://youtu.be/8QMpd9TnsE0
 
-### 文件结构说明:
+### Description of repository structure:
 
-   1. ##### 演示相关demo文件夹
-      - 3Erefactor-demo-video.MP4文件为工具演示视频。
-      - json-sample为功能使用的样例文件夹，包含工具输入的样例json文件。
-      - sample-project项目样例文件夹，包含工具演示测试使用到的java项目文件。
+   1. ##### "demo" folder
+      - 3Erefactor-demo-video.MP4: The file is a demo video of the tool in Chinese Version. The English version is the video with the -EN suffix.
+      - json-sample: Sample folder for feature usage, contains sample .json files for tool input.
+      - sample-project: Sample project folder, containing java project files used for tool demo testing
 
-   2. ##### 文档相关docs文件夹
+   2. ##### "docs" folder
 
-      - install-guide.md为工具安装说明文档，包含工具安装调试说明。
-      - usage-guide.md为工具使用说明文档，包含工具核心功能的详细介绍和使用说明。
+      - install-guide.md: A tool installation instruction document containing instructions for installing and debugging the tool.
+      - usage-guide.md: A tool instruction document containing a detailed description of the tool's core functionality and instructions for use.
 
-   3. ##### 安装包相关install-package文件夹
-      - frontend放置各版本的前端安装包.vsix文件。
-      - backend放置各版本的后端安装包.jar文件。
-      - 安装文件使用GIT LFS协议，拉取时请使用git pull指令，使用zip包获取可能导致安装文件损害。
+   3. ##### "install-package" folder
+      - frontend: The folder for each version of the front-end installer .vsix file
+      - backend: The folder  for each version of the backend installer .jar files.
+      - These Installation files are stored using the GIT LFS protocol, please use the git pull command when pulling, using the zip package to get them may result in damage to the installation files.
