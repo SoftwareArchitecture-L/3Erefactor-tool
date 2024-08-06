@@ -11,21 +11,21 @@ As software continues to evolve and business functions become increasingly compl
 
 
 ### Online Link to Tool Demo：
-   Demo in Chinese Version：https://www.bilibili.com/video/BV1UN4y1k7pE/?spm_id_from=333.999.0.0
+   Demo in Chinese Version: https://www.bilibili.com/video/BV1UN4y1k7pE/?spm_id_from=333.999.0.0
 
    Demo in English Version: https://youtu.be/8QMpd9TnsE0
 
 ### Description of repository structure:
 
    1. ##### "demo" folder
-      - 3Erefactor-demo-video.MP4: The file is a demo video of the tool in Chinese Version. The English version is the video with the -EN suffix.
+      - [3Erefactor-demo-video-EN.MP4](./demo/3Erefactor-demo-video-EN.mp4): The file is a demo video of the tool in English Version. The Chinese version is the video without the -EN suffix.
       - json-sample: Sample folder for feature usage, contains sample .json files for tool input.
       - sample-project: Sample project folder, containing java project files used for tool demo testing
 
    2. ##### "docs" folder
 
-      - install-guide.md: A tool installation instruction document containing instructions for installing and debugging the tool.
-      - usage-guide.md: A tool instruction document containing a detailed description of the tool's core functionality and instructions for use.
+      - [install-guide.md](./docs/install-guide-EN.md): A tool installation instruction document containing instructions for installing and debugging the tool.
+      - [usage-guide.md](./docs/usage-guide-EN.md): A tool instruction document containing a detailed description of the tool's core functionality and instructions for use.
 
    3. ##### "install-package" folder
       - frontend: The folder for each version of the front-end installer .vsix file
