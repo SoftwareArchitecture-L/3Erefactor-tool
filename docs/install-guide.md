@@ -1,7 +1,7 @@
 ## 前端安装
 前端安装包为3E-Refactor.vsix文件，从VSCode的扩展面板中选择“从VSIX安装”，导入对应文件即可。
 
-安装成功后，VSCode页面侧边栏会多出一个图标，点击可查看到如下页面。
+安装成功后，VSCode页面侧边栏会多出一个“列表”的图标，点击可查看到如下页面。
 ![Alt text](fig/frontend-sidebar.png)
 下方的面板也会增加Project Info、Inconsistency Panel、Refactor Panel界面。
 ![Alt text](fig/frontend-panel.png)
@@ -14,7 +14,7 @@
 ```bash
 java -jar 3ERefactor-service.jar
 ```
-后端服务需要占用8888端口。只需启动3ERefactor-service.jar包，其他jar包放在同一文件夹下即可。
+后端服务需要占用8888端口。只需启动3ERefactor-service.jar包，其他jar包放在同一文件夹下即可，在工具运行过程中后端服务器会调用这些jar包。
 
 在命令行中出现如图所示即是启动成功。
 ![Alt text](fig/backend-running.png)
@@ -23,4 +23,4 @@ java -jar 3ERefactor-service.jar
 插件工具演示时运行环境为windows，jdk版本为17，使用的java项目为0.9.6e分支版本的depends项目
 https://github.com/multilang-depends/depends
 
-详细的工具使用流程在usage-guide.md中可见，也可查看refactor-demo演示视频。
+详细的工具使用流程在[usage-guide.md](./usage-guide.md)中可见，也可查看demo文件夹中的演示视频[3Erefactor-demo-video](../demo/3Erefactor-demo-video.mp4)。
