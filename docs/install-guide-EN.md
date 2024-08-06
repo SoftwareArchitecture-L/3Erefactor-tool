@@ -2,9 +2,13 @@
 The front-end installation package is 3E-Refactor.vsix file, select "Install from VSIX" from VSCode's extension panel and import the corresponding file.
 
 After successful installation, there will be an list icon in the sidebar of the VSCode page, click it to view the following page.
+
 ![Alt text](fig/frontend-sidebar.png)
+
 The lower panel will also add several interfaces: Project Info, Inconsistency Panel, and Refactor Panel.
+
 ![Alt text](fig/frontend-panel.png)
+
 **Note:** Port 8081 is required for the front-end. And before using the tool's features, please make sure these panels are activated by clicking and view them.
 
 ## Backend Install
