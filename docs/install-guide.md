@@ -2,9 +2,13 @@
 前端安装包为3E-Refactor.vsix文件，从VSCode的扩展面板中选择“从VSIX安装”，导入对应文件即可。
 
 安装成功后，VSCode页面侧边栏会多出一个“列表”的图标，点击可查看到如下页面。
+
 ![Alt text](fig/frontend-sidebar.png)
+
 下方的面板也会增加Project Info、Inconsistency Panel、Refactor Panel界面。
+
 ![Alt text](fig/frontend-panel.png)
+
 注意：前端的运行需要8081端口。在使用插件功能前，请先点击查看这些界面，确认它们被激活。
 
 ## 后端安装
