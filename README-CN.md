@@ -18,14 +18,14 @@
 ### 文件结构说明:
 
    1. ##### 演示相关demo文件夹
-      - 3Erefactor-demo-video.MP4文件为工具演示视频。
+      - [3Erefactor-demo-video.MP4](./demo/3Erefactor-demo-video.mp4)文件为工具演示视频。
       - json-sample为功能使用的样例文件夹，包含工具输入的样例json文件。
       - sample-project项目样例文件夹，包含工具演示测试使用到的java项目文件。
 
    2. ##### 文档相关docs文件夹
 
-      - install-guide.md为工具安装说明文档，包含工具安装调试说明。
-      - usage-guide.md为工具使用说明文档，包含工具核心功能的详细介绍和使用说明。
+      - [install-guide.md](./docs/install-guide.md)为工具安装说明文档，包含工具安装调试说明。
+      - [usage-guide.md](./docs/usage-guide.md)为工具使用说明文档，包含工具核心功能的详细介绍和使用说明。
 
    3. ##### 安装包相关install-package文件夹
       - frontend放置各版本的前端安装包.vsix文件。
